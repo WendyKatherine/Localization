@@ -25,7 +25,6 @@ const GeolocationComponent  = () => {
             setError('La geolocalización no esta soportada por este navegador');
         }
     }, []);
-
   return (
     <div className="flex justify-center items-center h-screen">
      <div className="font-sans text-white text-center">
